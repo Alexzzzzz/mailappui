@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mail Template</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="animated slideInDown top_header">
+        <div class="container-fluid">
+        <div class="header_logo"><a href="#"> <img src="images/logo.svg" alt=""> </a></div>
+        <div class="header_menu">
+          <ul>
+            <li> <a class="active_link" href="#">Dashboard</a> </li>
+            <li> <a href="#">Statistic</a> </li>
+            <li> <a href="#">Pages</a> </li>
+            <li class="nav-link dropdown-toggle header_menu_dropdown" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <a href="#">...</a> </li>
+            <div class="dropdown-menu header_dropdown" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+          </ul>
+        </div>
+        <div class="header_profile">
+          <img class="header_profile_image" src="images/user_image.png" alt="">
+          <a href="#">RonaldHenry</a>
+        </div>
+        <div class="header_notification">
+          <a href="#"><img src="images/bell_icon.svg" alt=""></a>
+        </div>
+        <div class="top_header_search">
+          <form class="" action="index.html" method="post">
+            <div class="input-group mb-3 top_header_input_search">
+             <div class="input-group-prepend">
+              <span class="input-group-text search_form_icon" id="basic-addon1"> <img src="images/search_icon.svg" alt=""> </span>
+             </div>
+             <input type="text" class="form-control top_header_search_form" placeholder="Search..." aria-label="Search..." aria-describedby="basic-addon1">
+           </div>
+          </form>
+        </div>
+        </div>
+      </div>
+    </header>
+    <nav>
+    <div class="menu_sidenav">
+      <a href="#"> <img class="svg_image" src="images/menu/dashboard.svg" alt=""> </a>
+      <a href="#"><img src="images/menu/widgets.svg" alt=""></a>
+      <a class="active_menu" href="#"> <img src="images/menu/emailicon.svg" alt=""> </a>
+      <a href="#"> <img src="images/menu/social.svg" alt=""> </a>
+      <a href="#"> <img src="images/menu/calendar.svg" alt=""> </a>
+      <a href="#"> <img src="images/menu/charts.svg" alt=""> </a>
+      <a href="#"> <img src="images/menu/menu.svg" alt=""> </a>
+</div></nav>
+<main>
+<div class="animated slideInUp container-fluid content_container">
+  <div class="pagetitle_broadcrump">
+    <div class="header_broadcrump">
+    <a href="#">Dashboard</a>
+    <img src="images/arrow.png" alt="">
+    <a class="active_link" href="#">Mail</a>
+    </div>
+    <h1>Mailbox CRM</h1>
+  </div>
+  <div class="content_container_box">
+    <div class="container_top_cont">
+      <div class="compose_now">
+        <button>COMPOSE</button>
+      </div>
+      <div class="mail_header_icons">
+      <div class="other_mail_icons">
+        <a href="#"> <img src="images/mailicons/refreshicon.svg" alt=""> </a>
+        <a href="#"> <img src="images/mailicons/archiveicon.svg" alt=""> </a>
+        <a href="#"> <img src="images/mailicons/spamicon.svg" alt=""> </a>
+        <a href="#"> <img src="images/mailicons/deleteicon.svg" alt=""> </a>
+        <a href="#"> <img src="images/mailicons/foldericon.svg" alt=""> </a>
+        <a href="#"> <img src="images/mailicons/labelicon.svg" alt=""> </a>
+      </div>
+      </div>
+      <div class="mail_header_search">
+        <form class="" action="index.html" method="post">
+          <div class="input-group mb-3 mail_header_input_search">
+            <input type="text" class="form-control mail_header_search_form" placeholder="Search Mail..."  aria-describedby="basic-addon1">
+           <div class="input-group-prepend">
+            <span class="input-group-text top_search_form_icon" id="basic-addon1"> <img src="images/mailsearchicon.svg" alt=""> </span>
+           </div>
+         </div>
+        </form>
+      </div>
+      <div class="mail_pagination">
+        <div class="pagination_text">
+          1-10 of 100
+        </div>
+        <div class="pagination_arrow">
+          <img src="images/pagination_arrow.svg" alt="">
+          <img src="images/pagination_arrow2.svg" alt="">
+        </div>
+        <div class="mail_setting_icon">
+          <img src="images/settings_icon.svg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="right_class">
+      <div class="right_mail_menu">
+        <ul>
+          <li> <a href="#"> <img src="images/mailmenu/inbox_icon.svg" alt=""> Inbox <span class="badge badge-secondary mail_count">252</span> </a> </li>
+          <li> <a href="#"> <img src="images/mailmenu/draft_icon.svg" alt=""> Draft <span class="badge badge-secondary  mail_count">18</span> </a> </li>
+          <li> <a href="#"> <img src="images/mailmenu/send_icon.svg" alt=""> Sent Mail <span class="badge badge-secondary  mail_count">12</span> </a> </li>
+          <li> <a href="#"> <img src="images/mailmenu/trash_icon.svg" alt=""> Trash <span class="badge badge-secondary mail_count">16</span> </a> </li>
+        </ul>
+      </div>
+      <div class="right_fot_menu">
+        <ul>
+          <li><span class="right_dot_yellow"></span> <a href="#">Project</a> </li>
+          <li><span class="right_dot_green"></span><a href="#">Web</a> </li>
+          <li><span class="right_dot_blue"></span><a href="#">Design</a> </li>
+          <li><span class="right_dot_purple"></span><a href="#">Code</a> </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mail_messages">
+      <div class="mail_message_item">
+        <div class="star_icon">
+          <img src="images/star_icon.svg" alt="">
+        </div>
+        <span class="dot_yellow"></span>
+        <div class="user_information">
+          <img class="mail_user_avatar" src="images/avatar_icon.png" alt="">
+          <a href="#">Nadia Ivanishvili</a>
+        </div>
+        <div class="user_message">
+          <a href="#">Adwords Keyword Research For Beginners</a>
+        </div>
+        <div class="message_right_information">
+          <img class="attachment_icon" src="images/attachment_icon.svg" alt="">
+          07:24 AM
+        </div>
+      </div>
+      <div class="mail_messages">
+        <div class="mail_message_item">
+          <div class="star_icon">
+            <img src="images/star_icon.svg" alt="">
+          </div>
+          <span class="dot_red"></span>
+          <div class="user_information">
+            <img class="mail_user_avatar" src="images/avatar_icon2.png" alt="">
+            <a href="#">Bill Neal</a>
+          </div>
+          <div class="user_message">
+            <a href="#">The Glossary Of Telescopes</a>
+          </div>
+          <div class="message_right_information">
+            <img class="attachment_icon" src="images/attachment_icon.svg" alt="">
+            08:48 AM
+          </div>
+        </div><div class="mail_messages">
+          <div class="mail_message_item">
+            <div class="star_icon">
+              <img src="images/star_icon.svg" alt="">
+            </div>
+            <span class="dot_yellow"></span>
+            <div class="user_information">
+              <img class="mail_user_avatar" src="images/avatar_icon.png" alt="">
+              <a href="#">Nadia Ivanishvili</a>
+            </div>
+            <div class="user_message">
+              <a href="#">Adwords Keyword Research For Beginners</a>
+            </div>
+            <div class="message_right_information">
+              <img class="attachment_icon" src="images/attachment_icon.svg" alt="">
+              07:24 AM
+            </div>
+          </div>
+          <div class="mail_messages">
+            <div class="mail_message_item">
+              <div class="star_icon">
+                <img src="images/star_icon.svg" alt="">
+              </div>
+              <span class="dot_red"></span>
+              <div class="user_information">
+                <img class="mail_user_avatar" src="images/avatar_icon2.png" alt="">
+                <a href="#">Bill Neal</a>
+              </div>
+              <div class="user_message">
+                <a href="#">The Glossary Of Telescopes</a>
+              </div>
+              <div class="message_right_information">
+                <img class="attachment_icon" src="images/attachment_icon.svg" alt="">
+                08:48 AM
+              </div>
+            </div><div class="mail_messages">
+              <div class="mail_message_item">
+                <div class="star_icon">
+                  <img src="images/star_icon.svg" alt="">
+                </div>
+                <span class="dot_yellow"></span>
+                <div class="user_information">
+                  <img class="mail_user_avatar" src="images/avatar_icon.png" alt="">
+                  <a href="#">Nadia Ivanishvili</a>
+                </div>
+                <div class="user_message">
+                  <a href="#">Adwords Keyword Research For Beginners</a>
+                </div>
+                <div class="message_right_information">
+                  <img class="attachment_icon" src="images/attachment_icon.svg" alt="">
+                  07:24 AM
+                </div>
+              </div>
+              <div class="mail_messages">
+                <div class="mail_message_item">
+                  <div class="star_icon">
+                    <img src="images/star_icon.svg" alt="">
+                  </div>
+                  <span class="dot_red"></span>
+                  <div class="user_information">
+                    <img class="mail_user_avatar" src="images/avatar_icon2.png" alt="">
+                    <a href="#">Bill Neal</a>
+                  </div>
+                  <div class="user_message">
+                    <a href="#">The Glossary Of Telescopes</a>
+                  </div>
+                  <div class="message_right_information">
+                    <img class="attachment_icon" src="images/attachment_icon.svg" alt="">
+                    08:48 AM
+                  </div>
+                </div>
+    </div>
+  </div>
+</div></main>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
